@@ -1,0 +1,113 @@
+// injector
+// endinjector
+// pen STYLES
+body{
+    background-color: #dadfe7;
+}
+.dropdown-menu{
+    display: block; 
+  }
+  .dropdown-menu:before {
+    content:"";
+    position: absolute;
+    left: 15%;
+    top: -10px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 10px 10px 10px;
+    border-color: transparent transparent #ffffff transparent;
+    z-index:9999;
+  }
+  .navbar-default {
+    background-color: #4fb4cc;
+    border: none;
+    box-shadow: 0 1px 1px rgba(0,0,0,.175);
+    .btn-default {
+      color: #4fb4cc;
+      &:hover {
+        background-color: #d7eef4;
+      }
+    }
+    .dropdown-toggle{
+        font-size: 17px;
+        font-weight: 500;
+    }
+    .dropdown-menu {
+      border: none;
+      display: block;
+      box-shadow: 0 1px 1px rgba(0,0,0,.175);
+      li{
+          margin:10px 4px;
+      }
+      li>a {
+        &:hover {
+        background-color: #d7eef4;
+       
+       }
+       .menuTitle{
+           color:#6772e5;
+           font-size: 15px;
+           font-weight: 600;
+           -webkit-tap-highlight-color: transparent;
+           transition: color .1s ease;
+       }
+       .subMenuTitle{
+           color: #6b7c93;
+           font-size: 14px;
+
+       }
+      }    
+    }
+    .navbar-brand {
+      color: #fff;
+      &:hover {
+        color: #000;
+      }
+      &:focus {
+        color: #d7eef4;
+      }
+    }
+    .navbar-nav>li>a {
+      color: #fff;
+    }
+    .navbar-nav>.active>a {
+      color: #4fb4cc;
+      background-color: #fff;
+    }
+    .navbar-nav>.active>a:focus {
+      color: #4fb4cc;
+      background-color: #fff;
+    }
+    .navbar-nav>.active>a:hover {
+      color: #4fb4cc;
+      background-color: #d7eef4;
+    }
+    .navbar-nav>.open>a {
+      color: #4fb4cc;
+      background-color: #fff;
+    }  
+    .navbar-nav>.open>a:focus {
+      color: #4fb4cc;
+      background-color: #fff;
+    } 
+    .navbar-nav>.open>a:hover {
+      color: #4fb4cc;
+      background-color: #d7eef4;
+    } 
+    .navbar-toggle {
+      border-color: #fff;
+      .icon-bar {
+        background-color: #fff;
+      }
+      &:hover {
+        background-color: #d7eef4;
+      }
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .navbar {
+        border-radius: 0;
+    }
+  }
