@@ -49,6 +49,7 @@ node_modules
 gulp.1
 build
 .tmp
+dist
 
 /src/release
 /release
